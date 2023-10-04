@@ -67,7 +67,7 @@ class Employee {
         }
 
 
-        System.out.println("\nTekrar etmeyen çalışanlar:");
+        System.out.println("Tekrar etmeyen çalışanlar:");
         for (Employee employee : employeeList) {
             System.out.println("ID: " + employee.getId() + ", Adı: " + employee.getFirstName() + ", Soyadı: " + employee.getLastName());
         }
